@@ -7,6 +7,7 @@
    // @desc    Set goal
    // @route    SET /api/goal
    const setGoal = (req, res) => {
+      console.log(req.body)
    res.status(200).json({ message: "Set goal" });
    };
 
